@@ -1,6 +1,7 @@
-
 # class UDlexPT - the PortiLexicon-UD it reads dic files from the current directory
 #               - it should contain WORDmaster.txt plus the 12 tags .tsv files
+#
+# (c) Lucelene Lopes 2023
 #
 # member functions:
 #    UDlexPT                    - the constructor
