@@ -1,8 +1,11 @@
-# class UDlexPT - the PortiLexicon-UD it reads dic files from the current directory
-#               - it should contain WORDmaster.txt plus the 12 tags .tsv files
+# package UDlexPT
 #
 # (c) Lucelene Lopes 2023
 #
+# Part of the repository PortiLexicon-UD - a lexicon for Brazilian Portuguese according to Universal Dependencies
+#
+# class UDlexPT - the PortiLexicon-UD it reads dic files from the current directory
+#               - it should contain WORDmaster.txt plus the 12 tags .tsv files
 # member functions:
 #    UDlexPT                    - the constructor
 #    sget(self, word):          # get the entries for a word - returns a list with 3-tuples (empty if absent)
