@@ -18,27 +18,27 @@ This repository contains the lexicon data, the Python 3 package to access the da
 
 ## The Data
 The data is composed by:
-- WORDmaster.txt, one textual file with all lexicon entries (one per line) and the corresponding PoS tags that each entry has in the lexicon;
+- `WORDmaster.txt`, one textual file with all lexicon entries (one per line) and the corresponding PoS tags that each entry has in the lexicon;
 - 12 .tsv (tab separated values) files containing each the entries to each of the covered PoS tags, namely:
-  - ADJ.tsv - the adjectives
-  - ADP.tsv - the adpositions
-  - ADV.tsv - the adverbs
-  - AUX.tsv - the auxiliary verbs
-  - CCONJ.tsv - the coordenative conjunctions
-  - DET.tsv - the determiners
-  - INTJ.tsv - the interjections
-  - NOUN.tsv - the common nouns
-  - NUM.tsv - the numbers (cardinals)
-  - PRON.tsv - the pronouns
-  - SCONJ.tsv - the subordinative conjunctions
-  - VERB.tsv - the verbs
+  - `ADJ.tsv` - the adjectives
+  - `ADP.tsv` - the adpositions
+  - `ADV.tsv` - the adverbs
+  - `AUX.tsv` - the auxiliary verbs
+  - `CCONJ.tsv` - the coordenative conjunctions
+  - `DET.tsv` - the determiners
+  - `INTJ.tsv` - the interjections
+  - `NOUN.tsv` - the common nouns
+  - `NUM.tsv` - the numbers (cardinals)
+  - `PRON.tsv` - the pronouns
+  - `SCONJ.tsv` - the subordinative conjunctions
+  - `VERB.tsv` - the verbs
 
 ## Package UDlexPT
-The Python 3 package UDlexPT is available in the file UDlexPT.py that read the data files and builds a data structure to access the lexicon.
+The Python 3 package UDlexPT is available in the file `UDlexPT.py` that read the data files and builds a data structure to access the lexicon.
 Further information about the package usage and methods is available in the code remarks.
 
 ## Command Line Interface
-The command line interface is written in Python 3 and it is available in file lexUI.py.
+The command line interface is written in Python 3 and it is available in file `lexUI.py`.
 It provides a simple command line interface where the user types in a word and the information in the lexicon is fetched.
 
 ## Online Demo
