@@ -36,6 +36,14 @@ The data is composed by:
 ## Package UDlexPT
 The Python 3 package UDlexPT is available in the file `UDlexPT.py` that read the data files and builds a data structure to access the lexicon.
 Further information about the package usage and methods is available in the code remarks.
+### UDlexPT methods
+   - `UDlexPT()`           - the constructor
+   - `sget(word)`          - get the entries for the `word` - returns a list with tuples lemma,PoS,feats (empty list if absent)
+   - `exists(word)`        - returns `True` if the `word` exists in the lexicon
+   - `pget(word, tag)`     - get the entries of the `word` for the specific PoS `tag` (return similar to `sget`) 
+   - `pexists(word, tag)`  - returns `True` if the `word` has at least one entry for the `tag`
+   - `theTags(word)`       - returns a list of all PoS tags of the `word` (empty if absent)
+
 
 ## Command Line Interface
 The command line interface is written in Python 3 and it is available in file `lexUI.py`.
