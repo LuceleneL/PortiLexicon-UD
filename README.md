@@ -48,6 +48,9 @@ Further information about the package usage and methods is available in the code
 ## Command Line Interface
 The command line interface is written in Python 3 and it is available in file `lexUI.py`.
 It provides a simple command line interface where the user types in a word and the information in the lexicon is fetched.
+The interface can be called by the command:
+
+`python3 lexUI.py`
 
 ## Online Demo
 A online demonstration of Portilexicon-UD is available at [https://portilexicon.icmc.usp.br](https://portilexicon.icmc.usp.br).
