@@ -1,8 +1,8 @@
 # PortiLexicon-UD
-PortiLexicon-UD a lexicon for Brazilian Portuguese according to Universal Dependencies
+PortiLexicon-UD a lexicon for Brazilian Portuguese according to Universal Dependencies.
 
 ## Summary
-This repository holds the data of the PortiLexicon-UD, as well as a Python 3 package, called UDlexPT, to access the lexicon data, plus a command line interface to the lexicon data.
+This repository holds the data of the PortiLexicon-UD, as well as a Python 3 package, called UDlexPT, to access the lexicon data, plus a command line interface to the lexicon data (`lexUI.py`).
 PortiLexicon-UD is a lexicon for Portuguese that delivers the tagging information (PoS, lemma, and morphological features) for common words of Portuguese.
 
 ## Reference
